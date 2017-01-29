@@ -2,5 +2,5 @@
 Submodules and jekyll
 
 {% for p in site.posts %}
-- {{ p }}
+- {{ p.title }}
 {% endfor %}
