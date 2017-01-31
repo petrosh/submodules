@@ -11,6 +11,9 @@ git commit -am "ok" && git push
 
 ## posts
 
-{% for p in site.posts %}
-- {{ p.title }}
+{% for p in site.posts %}- {{ p.title }}
 {% endfor %}
+
+<script type="text/javascript">
+document.body.classList.add('markdown-body'); 
+</script>
