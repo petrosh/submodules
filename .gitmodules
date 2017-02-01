@@ -1,3 +1,6 @@
 [submodule "_posts"]
 	path = _posts
 	url = https://github.com/petrosh/submodules-posts
+[submodule "submodules-main"]
+	path = submodules-main
+	url = https://github.com/petrosh/submodules-main
