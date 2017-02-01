@@ -9,11 +9,6 @@ git submodule update --remote --merge
 git commit -am "ok" && git push
 ```
 
-## posts
+{% include post-list.html %}
 
-{% for p in site.posts %}- {{ p.title }}
-{% endfor %}
-
-<script type="text/javascript">
-document.body.classList.add('markdown-body'); 
-</script>
+{% include footer.html %}
