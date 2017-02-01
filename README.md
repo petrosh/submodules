@@ -20,5 +20,6 @@ sudo ln -s ../submodules-main/includes main
 ```
 
 {% include post-list.html %}
-{% include main/docs-nav.html %}
+{% for d in site.docs %}- {{ d.title }}
+{% endfor %}
 {% include footer.html %}
