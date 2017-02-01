@@ -10,5 +10,5 @@ git commit -am "ok" && git push
 ```
 
 {% include post-list.html %}
-
+{% include docs-nav.html %}
 {% include footer.html %}
