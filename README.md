@@ -20,6 +20,6 @@ sudo ln -s ../submodules-main/includes main
 ```
 
 {% include post-list.html %}
-{% for d in site.docs %}- {{ d.title }}
+{% for d in site.docs %}- [{{ d.title }}]({{ d.url | absolute_url }})
 {% endfor %}
 {% include footer.html %}
