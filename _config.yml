@@ -8,3 +8,6 @@ defaults:
       type: docs
     values:
       layout: "default"
+
+include: [submodules-main, _includes/main]
+

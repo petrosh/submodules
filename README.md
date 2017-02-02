@@ -23,3 +23,4 @@ sudo ln -s ../submodules-main/includes main
 {% for d in site.docs %}- [{{ d.title }}]({{ d.url | absolute_url }})
 {% endfor %}
 {% include footer.html %}
+{% include main/docs-nav.html %}
